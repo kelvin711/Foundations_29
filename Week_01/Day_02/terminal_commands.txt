@@ -1,0 +1,58 @@
+Basic Terminal Commands for Mac/Linux
+
+Present working directory
+`pwd`
+Use this command any time you are unsure where you are currently in your file structure. 
+pwd stands for Present Working Directory. For Windows,you may either use pwd or cd.
+
+create new files
+`touch` (windows type nul >)
+
+List files
+`ls` (`dir` windows)
+Use the ls command to see all the directories and files that are in your current directory. 
+To clear things up, a directory is just a synonym for a folder. In 'cmd', use the dir command 
+instead. add a `-l` to list and see a list form
+https://wiki.archlinux.org/title/File_permissions_and_attributes#Viewing_permissions
+
+ change directory command
+`cd`
+To move inside a subdirectory : to move inside a subdirectory in linux we use 
+`cd "directory_name"`
+`cd ~` or `cd` this command is used to change directory to the home directory. 
+`cd ..` this command is used to move to the parent directory of current directory
+
+Making a new folder
+`mkdir "new_directory_name"`
+This command will make a new directory named 'new_directory_name'. 
+Whatever argument you pass into this command will be the name of your new file. After making 
+the directory, you could run 'cd new_folder_name' to enter into that directory
+
+Delete an empty directory(folder)
+`rm "files_name"`
+`rmdir "directory_name"`
+
+Delete a non-empty directory(folder)
+`rm -rf  "directory_name"` use this command with caution!
+
+Renaming/Moving a file
+`mv "index.html" "new_name_index.html"`
+`mv "new_name_index.html" ../"new_name_index.html"`
+The 'mv' command has two uses. First, you can rename a file by first providing the file's 
+name and then providing what you want the file to be renamed to. In the first example, 
+index.html would be renamed to new_name_index.html. Second, it can be used to move a file 
+to a different folder. In the second example, new_name_index.html would be moved up one 
+directory with the same name. In either case, think of this command as moving a file - 
+into its current directory with a different name or into a different directory with the 
+same or different name.
+
+
+1.Open Terminal
+2.Navigate to your Desktop
+3.Create a new directory, call it 'test'
+4.Make files called index.html, styles.css, scripts.js inside the test directory
+5.BONUS (look this up) Make a copy of index.html and call it index_2.html
+6.Navigate back to your desktop and make another directory, call it 'destination'
+7.BONUS Move the index_2.html file to the 'destination' directory
+8.Remove/delete the test and destination directory 
+ALL OF THE COMMANDS WRITTEN ON A TEXT FILE
