@@ -18,6 +18,7 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | :-------- | :------- | :------------------------- |
 | `Week 1 Day 1` | Orientation | https://tinyurl.com/2s46uc2e |
 | `Week 1 Day 1` | Terminal & Git | https://tinyurl.com/mpar9vf3 |
+| `Week 1 Day 2` | JavaScript Basics | https://tinyurl.com/596n8k2b | 
 
 
 
