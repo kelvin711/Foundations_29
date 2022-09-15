@@ -1,0 +1,69 @@
+let randomStuff = [42, "roof", null, "car", false, undefined, 205]
+
+1. Given the randomStuff array, answer the following questions:
+a) What does the following print to the terminal?
+
+console.log(randomStuff[4])
+
+--------------------------------------------
+// answer here
+--------------------------------------------
+
+b) What does the following print to the terminal?
+
+console.log(`My ${randomStuff[1]} is red.`)
+
+--------------------------------------------
+// answer here
+--------------------------------------------
+
+(The following questions make permanent changes to the array)
+
+c) What does the following print to the terminal?
+
+randomStuff.pop()
+
+console.log(randomStuff)
+
+--------------------------------------------
+// answer here
+--------------------------------------------
+
+d) What does the following print to the terminal?
+
+randomStuff.shift()
+
+console.log(randomStuff[3])
+
+--------------------------------------------
+// answer here
+--------------------------------------------
+
+e-1) What does the following print to the terminal?
+
+randomStuff.unshift("puppies")
+randomStuff.push("taxes")
+randomStuff.splice(3,2,627)
+let randomThing = randomStuff.slice(2,3)
+
+for(let i = 0; i < randomStuff.length; i++){
+    console.log(randomStuff[i])
+}
+
+--------------------------------------------
+// answer here
+--------------------------------------------
+
+e-2) What does randomStuff look like now?
+
+--------------------------------------------
+// answer here
+--------------------------------------------
+
+e-3) What does the following print to the terminal?
+
+console.log(randomThing)
+
+--------------------------------------------
+// answer here
+--------------------------------------------
