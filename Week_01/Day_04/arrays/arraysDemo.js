@@ -1,0 +1,32 @@
+// let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// //            0  1  2  3  4  5  6
+// console.log(numArr[5])
+
+// let namesArr = ['Andrew', 'Jonathan', 'Josh']
+
+// let finalName = namesArr.pop()
+// console.log(finalName)
+// console.log(namesArr)
+
+
+// let namesArr = ['Andrew', 'Jonathan', 'Josh']
+// let someNames = namesArr.slice(0, 3)
+
+// console.log(namesArr)
+
+// let namesArr = ['Andrew', 'Jonathan', 'Josh', 'Brandon', 'Steve']
+// let removedName = namesArr.splice(1, 3, "Nicolas")
+
+// console.log(namesArr)
+// console.log(removedName)
+
+// console.log(namesArr[namesArr.length - 1])
+
+
+// for(let i = namesArr.length; i >= 0; i--){
+//     console.log(namesArr[i])
+// }
+
+// namesArr[100] = "Nicolas"
+
+// console.log(namesArr)

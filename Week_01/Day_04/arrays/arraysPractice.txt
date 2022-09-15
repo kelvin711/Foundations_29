@@ -67,3 +67,23 @@ console.log(randomThing)
 --------------------------------------------
 // answer here
 --------------------------------------------
+
+f) What does the following print to the terminal? (Multiple answers)
+
+while(randomStuff.length < 10){
+    randomStuff.push("stuff")
+}
+
+if(randomStuff.shift() === "stuff"){
+    console.log(randomStuff[7])
+} else if (randomStuff.pop() === "stuff") {
+    console.log(randomStuff[3])
+} else {
+    console.log(randomStuff[randomStuff.length - 1])
+}
+
+console.log(randomStuff.length)
+
+--------------------------------------------
+// answer here
+--------------------------------------------
