@@ -30,3 +30,36 @@
 // namesArr[100] = "Nicolas"
 
 // console.log(namesArr)
+let randomStuff = [42, "roof", null, "car", false, undefined, 205]
+
+while(randomStuff.length < 10){
+    randomStuff.push("stuff")       
+}
+console.log(randomStuff)
+
+if(randomStuff.shift() === "stuff"){
+    console.log(randomStuff[7])
+} else if (randomStuff.pop() === "stuff") {
+    console.log(randomStuff[3])
+} else {
+    console.log(randomStuff[randomStuff.length - 1])
+}
+
+if (randomStuff.pop() === "stuff") {
+    console.log(randomStuff)
+}
+console.log(randomStuff)
+
+// console.log(randomStuff.length)
+
+// for(let i = 0; i < 100; i++){
+//     if (i % 5 === 0){
+//         console.log("fizz")
+//     } else if (i % 3 === 0) {
+//         console.log("buzz")
+//     } else if (i % 15 === 0){
+//         console.log("fizzbuzz")
+//     } else {
+//         console.log(i)
+//     }
+// }
