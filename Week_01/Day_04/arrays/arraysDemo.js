@@ -8,7 +8,6 @@
 // console.log(finalName)
 // console.log(namesArr)
 
-
 // let namesArr = ['Andrew', 'Jonathan', 'Josh']
 // let someNames = namesArr.slice(0, 3)
 
@@ -22,7 +21,6 @@
 
 // console.log(namesArr[namesArr.length - 1])
 
-
 // for(let i = namesArr.length; i >= 0; i--){
 //     console.log(namesArr[i])
 // }
@@ -30,25 +28,25 @@
 // namesArr[100] = "Nicolas"
 
 // console.log(namesArr)
-let randomStuff = [42, "roof", null, "car", false, undefined, 205]
+let randomStuff = [42, "roof", null, "car", false, undefined, 205];
 
-while(randomStuff.length < 10){
-    randomStuff.push("stuff")       
+while (randomStuff.length < 10) {
+  randomStuff.push("stuff");
 }
-console.log(randomStuff)
+console.log(randomStuff);
 
-if(randomStuff.shift() === "stuff"){
-    console.log(randomStuff[7])
+if (randomStuff.shift() === "stuff") {
+  console.log(randomStuff[7]);
 } else if (randomStuff.pop() === "stuff") {
-    console.log(randomStuff[3])
+  console.log(randomStuff[3]);
 } else {
-    console.log(randomStuff[randomStuff.length - 1])
+  console.log(randomStuff[randomStuff.length - 1]);
 }
 
 if (randomStuff.pop() === "stuff") {
-    console.log(randomStuff)
+  console.log(randomStuff);
 }
-console.log(randomStuff)
+console.log(randomStuff);
 
 // console.log(randomStuff.length)
 
