@@ -11,21 +11,23 @@
 // The simplest way to perform an explicit type conversion is to use the 
 // Boolean(), Number(), and String() functions
 
+// let number = 12;
 
 Number("3") // => 3 parseInt()
 String(false)  // => "false":  false.toString()
 Boolean([])    // => true (!![])
 
+// Number("3") == 3
 
 // = is assignment
 // == loose comparison
 // === strict comparison
 // undefined == true
 // "12" + 12 = 24
-// console.log(3 + []); // 3 + 0
+// console.log("12" + String(12));
+// console.log("[]" + 3); // 3 + 0
 // console.log(12 + "12");
 //plus operand also acts as concat
-//           true && false ---> false
 
 //what happens when we use a loose comparison?? well look at the table!
 //JAVASCRIPT TYPE CONVERSIONS
@@ -45,9 +47,18 @@ Boolean([])    // => true (!![])
 //NaN                           "NaN"                               false
 //{} (any object)               complicated         complicated     true
 //[] (empty array)              ""                  0               true
-//[9,8] (one numeric element)     "9,8"                 9               true
+//[9,8] (one numeric element)   "9,8"               9               true
 //['a'] (any other array)       "a"                 NaN             true
 //function(){} (any function)   complicated         NaN             true
+
+// --------------------------------
+// console.log("1.2" && []);
+// //   true &&  true ---> true
+// if ("1.2" && []) {
+//     console.log("wow wonky");
+// }
+// ---------------------------------
+// user.isLoggedIn && <Html ></Html>
 
 //LOGICAL OPERATORS
 // The logical operators &&, ||, and ! perform Boolean algebra 
@@ -59,26 +70,31 @@ let t1 = true
 let t2 = true
 let f1 = false
 let f2 = false
-
+// return to me the output and what variable it will return
 console.log(t1 && t2);
-
+// true --> t2
 console.log(t2 && t1);
-
+// true --> t1
 console.log(t1 && f1);
-
+// false --> f1
 console.log(f1 && t1);
-
+// false --> f1
 console.log(f1 && f2);
-
+// false --> f2
 console.log(f2 && f1);
-
-let let_add_falsy = (0 && undefined) + 2  
+// false --> f2            
+let let_add_falsy = (undefined && undefined) + 2  
+console.log(let_add_falsy);
 
 let let_add_truthy = ("1.2" && true) + 2
+console.log(let_add_truthy);
 
 //what would this return
+//               2  && false --> false
 console.log(((1 && 2) && (false && false)))
 
+
+// console.log(("b" + "a" + + "a" + "a").toLowerCase())
 
 // The || operator performs the Boolean OR operation on its two operands. 
 // If one or both operands is truthy, it returns a truthy value. 
@@ -105,6 +121,7 @@ let truthy = [1]
 let falsy = null
 //           true && true --> true
 console.log(truthy && truthy[0]);
+
 //         true &&  error
 console.log(true || falsy[0]);
-//console.log(falsy[0]);
+// console.log(falsy[0]);
