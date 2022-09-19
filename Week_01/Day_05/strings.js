@@ -40,7 +40,7 @@ console.log(string1.length);
 let practice_with_some_strings = "Hello, world";
 //an object wrapper around all primitives String(practice_with_some_strings)
 // let str = 'hello';
-// let temp = new String("new string"); // wrapper object
+// let temp = new String(email); // wrapper object
 // console.log(temp);
 // temp.custom = 1;
 // console.log(temp.custom);
@@ -48,11 +48,11 @@ let practice_with_some_strings = "Hello, world";
 
 //obtaining portions of a string
 //substring and return "ell" ----->
-console.log(practice_with_some_strings.substring(1,4));
+// console.log(practice_with_some_strings.substring(1,4));
 //slice and return "worl" -----> 
-console.log(practice_with_some_strings.slice(7,-2));
+// console.log(practice_with_some_strings.slice(7,-2));
 //split and return an array of both words -----> 
-
+console.log(practice_with_some_strings.split(", ").join(" "));
 //Bonus: what method can take an array of words and put them back together
 
 //searching a string
