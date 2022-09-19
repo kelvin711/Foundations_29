@@ -12,19 +12,26 @@
 //ANATOMY OF A FUNCTION
 
 //keyWord  name_of_function         parameters(if any)
-function your_first_function(name_input, favorite_number) {
+function your_first_function(name_input, favorite_number = 7) {
+    // if (name_input != typeof String) {
+    //     throw new Error("hey need a string you dingus for name")
+    // }
     //body of function is inside the curly brackets
     let return_string = `your name is ${name_input}, and your fave num is ${favorite_number}`;
     //if no return is stated the default is undefined
+    console.log(`your name is ${name_input}, and your fave num is ${favorite_number}`);
+    // return `your name is ${name_input}, and your fave num is ${favorite_number}`;
+    //return undefined
 }
-// console.log(obj.daniels_function("kelvin", 11))
-let name_argument = { name:"Kelvin" }
-let favorite_number_argument = 11
+
+let nice_sentence = your_first_function("comedy with out the c")
+console.log(nice_sentence);
+
+
 //CALLING A FUNCTION
 //            name_of_function()----->arguments(if any)
-console.log(your_first_function(name_argument,favorite_number_argument));
+// console.log(your_first_function(name_argument,favorite_number_argument));
 //console logging functions prints a functions return statement'
-
 
 
 //DEFINING FUNCTIONS
@@ -33,29 +40,38 @@ console.log(your_first_function(name_argument,favorite_number_argument));
 //FUNCTION DECLERATIONS
 
 //key_word identifier(parameters)
-console.log(add_numbers(2,2))
+console.log(add_numbers(2,2));
+//FUNCTION DECLERATION EX
 function add_numbers(num1, num2) {
     //statements
     return num1 + num2
 }
-let four = add_numbers(2,2)
-console.log(add_numbers);
+let four = add_numbers(2,2);
+// console.log(four);
 //the name of the function becomes a variable whose value is the function
 
 //FUNCTION EXPRESSIONS
 //Function expressions look similar to function declarations, but they appear within the context 
 //of a larger expression or statement, and the name is optional. Here are some example 
 
+
+
 //assigning a function to a variable
+// console.log(square(10));
+
+//look up hoisting ill probably put something here later
+//addSquare() ~~~~
+//square; = function()
+
 const square = function(x) {
     return x * x;
 };
 console.log(square(10));
 
-// let sorted_array = [33,222,11,10].sort()
-// console.log(sorted_array);
+
 //function expressions can also be used as arguments to other functions
-console.log([3, 2, 1].sort(function(a, b) { return a - b; }));
+
+console.log([3, 2, 1].sort( function(a, b) { return a - b; }));
 
 //function expressions can be immediately invoked, neat
 let tensquared =
@@ -70,6 +86,10 @@ console.log(tensquared);
 // ARROW FUNCTIONS 
 // The function keyword is not used, and, since arrow functions are expressions instead of 
 // statements, there is no need for a function name, either
+
+// function sum(x,y){
+//     return x+y;
+// }
 
 const sum = (number1, number2) => {
     return number1 + number2;
@@ -95,17 +115,24 @@ const square_again = num_to_square => num_to_square ** 2
 //function scope
 //block scope
 
+//step 1
+//global_variable;
+//function hypotenuse() ~~~~~
+//step 2
+//global_variable = "this string can be seen by all"
+////function hypotenuse() ~~~~~
+
 
 let global_variable = "this string can be seen by all"
 
 function hypotenuse(a, b) {
-
+    
     function square(x) {
-
-        for (let i = 0; i < 3; i++) {
-            //console.log(`we are block scoped thanks to i ${i}\n. a is: ${a} and b is: ${b}`);
+        console.log(global_variable);
+        // for (let i = 0; i < 3; i++) {
+        //     //console.log(`we are block scoped thanks to i ${i}\n. a is: ${a} and b is: ${b}`);
             
-        }
+        // }
 
         return x * x;
 
@@ -140,16 +167,20 @@ obj_example.hello_world()
 
 
 
+
+
 console.log("---------------------------");
+
 
 let o = {   
     //this = obj o              // An object o.
     m: function() {       // Method m of the object.
         console.log(this === o)
-        f();              // Now call the helper function f().
-        function f(){    // A nested function f
+        let f = () => {    // A nested function f
+            console.log(`this is: `, this);
             console.log(this === o) 
         }
+        f();              // Now call the helper function f().
     }
 };
-o.m();                // Invoke the method m on the object o.
+o.m();   
