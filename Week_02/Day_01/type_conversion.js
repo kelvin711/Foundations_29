@@ -125,3 +125,5 @@ console.log(truthy && truthy[0]);
 //         true &&  error
 console.log(true || falsy[0]);
 // console.log(falsy[0]);
+
+
