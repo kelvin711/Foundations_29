@@ -12,8 +12,11 @@ let subtract = (x, y) => {
     return x - y
 }
 
-const numA = add(54, 627)
-const numB = add(235, 8654)
+// const numA = add(54, 627) //681
+// const numB = add(235, 8654) //8889
+
+const numC = subtract(add(235, 8654), add(54, 627))
+console.log(numC);
 
 
 //neat lets cover
@@ -22,7 +25,7 @@ const numB = add(235, 8654)
 // function then invokes (“calls back”) your function when some condition is met or some 
 // (asynchronous) event occurs
 
-setTimeout(() => console.log("that took a while"), 2000)
+setTimeout( () => console.log("that took a while"), 2000)
 
 //why use callbacks?
 // Callbacks make sure that a function is not going to run before a task is completed but 
@@ -42,9 +45,9 @@ function square_root_this_num(a_plus_b_squared) {
 
 console.log(find_a_plus_b_squared(2,2,square_root_this_num));
 
-//                       string  f()
-const greetingMachine = (name, greeting) => {
-    return greeting(name)
+
+const greetingMachine = (name, banana) => {
+    return banana(name)
 }
 
 const hello = name => {
@@ -59,7 +62,11 @@ const yo = name => {
 const goodmorning = name => {
     console.log(`Good morning, ${name}!`)
 }
-greetingMachine("Colin", yo);
+const addTen = num => {
+    return num + 10 
+}
+
+console.log(greetingMachine(["Peyton", "Alex"], goodmorning));
 
 
 // we can also write callback functions inline
@@ -77,19 +84,23 @@ console.log(hypotenuse(2, 2, (n) => n ** 2));
 // You’ve already seen them: they’re the outer functions in the callback examples
 
 function B() {
-    console.log("Inside the method B. called from B")
+    return "Inside the method B. called from B"
+    //return undefined
 }
 // first method that return second method
 function A() {
     console.log("Method A being called")
     // return second method
-    return B
+    // return B()
+    //return undefined
 }
-
+//    function B()
 let returned_function = A()
+console.log(returned_function);
 
 // call second method by first method
-returned_function()
+// returned_function()
+// returned_function()
 
 // Higher Order Array Methods
 // Functions built into JavaScript that accept callbacks as arguments
@@ -120,7 +131,7 @@ console.log(each_name_index);
 //the core logic is making a new array and then just pushing into it every iteration
 //this is what makes higher order functions powerful
 
-let each_name = names.map((one_name) => one_name)
+let each_name = names.map( (one_name) => one_name)
 let hello_each_name = names.map((one_name) => "hello " + one_name)
 let each_name_and_index = names.map((one_name, idx) => one_name + " " + idx)
 
@@ -133,6 +144,7 @@ let each_name_and_index = names.map((one_name, idx) => one_name + " " + idx)
 
 
 let originalArray = [1, 2, 3, 4];
+
 
 function map(array, callback) {
     let newArray = [];
