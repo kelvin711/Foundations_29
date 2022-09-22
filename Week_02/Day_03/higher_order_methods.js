@@ -53,14 +53,23 @@ console.log(every_other_element);
 //REDUCE
 // reduce() takes two arguments. The first is the function that performs the reduction operation. 
 // The task of this reduction function is to somehow combine or reduce two values into a 
-// single value and to return that reduced value.
+// single value and to return that reduced value. The second is the initial value
 let c = [1,2,3,4,5]
 
 let reduced_sum = c.reduce( (prev_value, curr_value) => {
-    console.log(prev_value, curr_value);
+    console.log(`the previous value is: ${prev_value} the current value is ${curr_value}`);
     return prev_value + curr_value
-}, 0)
+},10)
 console.log(reduced_sum);
+
+let big = c.reduce( (prev_value, curr_value) => {
+    if(prev_value > curr_value) {
+        return prev_value
+    } else {
+        return curr_value
+    }
+})
+console.log(big);
 
 //if no initial value is given it takes the first element of the array as the initial value
 
