@@ -41,11 +41,11 @@ pikachu.whosThatPokemon()
 // console.log(pikachu)
 // Bracket notation is more dynamic:
 
-// const updatePokemon = (pokemon,banana,update) => {
-//     pokemon[banana] = [update];    // pikachu['type'] = 'Electric'
-// };
+const updatePokemon = (pokemon,property,update) => {
+    pokemon[property] = [update];    // pikachu['type'] = 'Electric'
+};
 
-// updatePokemon(pikachu,'type','Electric');
+updatePokemon(pikachu,'type','Electric');
 // updatePokemon(pikachu,'type', 'Water');
 // console.log(pikachu)
 // You can also save these values to a new variable.

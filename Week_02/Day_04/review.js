@@ -30,3 +30,48 @@ uniq(names, write_new_array);
 */
 
 // CODE HERE
+//write a function call order kelvin brekky that takes two params, isOpen and callback. isOpen will be a boolean and based on if its
+//true you will invoke the callback to order some whataburger brekky.
+// () =>
+// console.log(orderBrekky);
+let orderBrekky = (isOpen, callbackFunc) => {
+    if (isOpen) {
+        return callbackFunc()
+    }
+    return "closed"
+}
+let internOrder = () => {
+    console.log("Kelvin would like that breakfast sandwich pls, with hashbrowns")
+}
+
+// orderBrekky(true, () => console.log("Kelvin would like that breakfast sandwich pls, with hashbrowns"));
+let stuff = orderBrekky(false, internOrder);
+// console.log(orderBrekky);
+
+let peopleArr = [
+    {
+        name: "bobothy",
+        salary: 420000
+    },
+    {
+        name: "samothy",
+        salary: 10
+    },
+    {
+        name: "Julie",
+        salary: 42000
+    },
+    {
+        name: "bob Marley",
+        salary: 420
+    },
+    {
+        name: "Lukas",
+        salary: 10000000
+    },
+]
+
+//give me an array of people with a salary of 420k and above
+let newArr = peopleArr.filter( (person_obj) => person_obj.salary >= 420000 )
+console.log(newArr);
+
