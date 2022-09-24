@@ -25,7 +25,8 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 2 Day 1` | Functions 1 | https://tinyurl.com/4kz74ntv |
 | `Week 2 Day 2` | Intro To Objects | https://tinyurl.com/ye26h3nk |
 | `Week 2 Day 3` | Functions 2 | https://tinyurl.com/4e7en53u |
-| `Week 2 Day 4` | Design | https://tinyurl.com/5n9azyuc |
+| `Week 2 Day 4` | Design | https://tinyurl.com/5n9azyuc | 
+| `Week 2 Day 5` | OOP Theory | https://tinyurl.com/yckv3b26 |
 
 
 
