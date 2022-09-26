@@ -1,0 +1,20 @@
+/* syntax for css
+selector { what: how } */
+h1 {
+    color: red;
+    background-color: blue;
+    text-align: center;
+}
+
+.link {
+    margin-right: 20px;
+}
+
+body {
+    background-color: yellow;
+
+}
+
+img {
+    width: 50%;
+}
