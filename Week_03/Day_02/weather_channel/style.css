@@ -1,0 +1,78 @@
+header {
+    background-color: red;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.logo {
+    background-color: blue;
+    height: 90px;
+    width: 200px;
+}
+
+div.search {
+    background-color: blue;
+    height: 60px;
+    width: 350px;
+}
+
+div.links {
+    background-color: blue;
+    height: 60px;
+    width: 250px;
+}
+
+nav {
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-links {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+}
+
+main {
+    background-color: yellow;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column1 {
+    background-color: purple;
+    height: 700px;
+    width: 700px;
+}
+
+.column2 {
+    background-color: green;
+    height: 700px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+}
+
+.card2 {
+    background-color: rebeccapurple;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
