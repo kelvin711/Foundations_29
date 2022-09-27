@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .container {
+            background-color: silver;
+            padding: 20px;
+            /* height: 300vh; */
+            /* display: flex;
+            justify-content: center;
+            align-items: stretch; */
+            /* Default */
+        }
+
+        .service {
+            background-color: rgb(182, 223, 237);
+            /* margin: 20px; */
+            padding: 30px;
+            /* max-width: 250px; */
+            border-radius: 10px;
+            border-style: outset;
+            box-shadow: 10px 10px 49px -17px rgba(23, 23, 23, 0.2);
+            text-align: center;
+        }
+
+        .service .icon {
+            background-color: #0D9488;
+            color: white;
+            font-size: 1.8rem;
+            padding: 1.2rem;
+            border-radius: 100%;
+        }
+
+        .service h2 {
+            margin-top: 1.6rem;
+        }
+
+        .service p {
+            margin-top: 0.8rem;
+            line-height: 1.4;
+            color: #555;
+        }
+
+        /*total width and height will be 130 each*/
+        #content-box {
+            box-sizing: content-box;
+            width: 100px;
+            height: 100px;
+            border: solid blue 10px;
+            padding: 5px;
+            background-color: yellow;
+        }
+
+        /*total width and height remain 100*/
+        #border-box {
+            box-sizing: border-box;
+            width: 100px;
+            height: 100px;
+            border: solid blue 10px;
+            padding: 5px;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="service service-one">
+            <span class="icon material-icons">photo_camera</span>
+            <h2>Photo Shoot</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+        </div>
+        <div class="service service-two">
+            <span class="icon material-icons">videocam</span>
+            <h2>Video Production</h2>
+            <p>
+                Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+            </p>
+        </div>
+        <div class="service service-three">
+            <span class="icon material-icons">brush</span>
+            <h2>Digital Illustration</h2>
+            <p>
+                Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae.
+            </p>
+        </div>
+    </div>
+
+    <div id="content-box"></div>
+    <div id="border-box"></div>
+</body>
+
+</html>

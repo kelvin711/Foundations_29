@@ -1,0 +1,41 @@
+Structural elements
+HTML5 introduces a number of semantic structural elements that can be used to configure specific areas on a web page
+
+DIV
+The div element has been used for many years to configure a generic structural area or “division” on a web page as a block display with empty space above and below.
+
+HEADER
+The div element has been used for many years to configure a generic structural area or “division” on a web page as a block display with empty space above and below.
+
+NAV
+The purpose of the nav element is to contain a section of navigation links.
+
+MAIN
+The purpose of the main element is to contain the main content of a web page document.
+
+FOOTER
+The purpose of the footer element is to contain the footer content of a web page or section of a web page.
+
+SECTION
+The purpose of a section element is to indicate a “section” of a document, such as a chapter or topic.
+
+ARTICLE
+The article element is intended to present an independent entry, such as a blog posting, comment, or e-zine article that could stand on its own.
+
+ASIDE
+The aside element indicates a sidebar or other tangential content.
+
+
+The "cascade" order of presedence follows the order of 
+Browser defaults -> external styles -> embedded styles -> inline styles
+
+the default position for elements is static, meaning they follow the normal document flow.
+
+postion relative is the same as static but allows us to use left, right, top and bottom to move the element. it takes the element out of the document flow
+
+postion absolute is positioned relative to the nearest positioned ancestor. However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+An element with position: sticky; is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+

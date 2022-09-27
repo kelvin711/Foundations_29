@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items</title>
+    <style>
+        .container {
+            /* height: 400px; */
+            display: flex;
+            flex-wrap:wrap;
+            /* align-content: flex-start; */
+            /* flex-direction: row; */
+            border-style: dotted;
+        }
+
+        .item {
+            font-size: 2rem;
+            line-height: 1;
+            text-align: center;
+            padding: 3rem;
+            background: mistyrose;
+            border: 3px solid tomato;
+            color: tomato;
+            margin: 6px;
+        }
+
+        .item.item-2 {
+            padding: 5rem;
+        }
+
+        .item.item-3 {
+            padding: 1.5rem;
+        }
+
+        .item.item-4 {
+            padding: .5rem 2rem 3rem;
+        }
+
+        /* Flex time */
+
+        .container.flex-start {
+            align-items: flex-start;
+        }
+
+        .container.flex-end {
+            align-items: flex-end;
+        }
+
+        .container.center {
+            align-items: center;
+        }
+
+        .container.baseline {
+            align-items: baseline;
+        }
+
+        .container.stretch {
+            align-items: stretch;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><code>align-items: flex-start</code></h1>
+    <p>All items are aligned to the beginning of the container (at the top in case of the above example)</p>
+    <div class="container flex-start">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+    </div>
+
+    <h1><code>align-items: flex-end</code></h1>
+    <p>All items are aligned to the end of the container (at the bottom in case of the above example)</p>
+    <div class="container flex-end">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+    </div>
+
+    <h1><code>align-items: center</code></h1>
+    <p>All items are aligned to the center of the container</p>
+    <div class="container center">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+    </div>
+
+    <h1><code>align-items: baseline</code></h1>
+    <p>All items are positioned such that the base aligns to the end of the container</p>
+    <div class="container baseline">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+    </div>
+
+    <h1><code>align-items: stretch</code></h1>
+    <p>(default) stretch to fill the container (still respect min-width/max-width)</p>
+    <div class="container stretch">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+    </div>
+</body>
+
+</html>

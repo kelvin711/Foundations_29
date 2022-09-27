@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        body {
+            font-family: roboto;
+        }
+
+        .wrapper {
+            padding: 3rem;
+            background-color: #f7eddb;
+        }
+
+        .menu {
+            background-color: #b967ff;
+            padding: 1.5rem;
+        }
+
+        .menu a {
+            background-color: #01cdfe;
+            padding: 0.6rem 1.5rem;
+            border-radius: 2rem;
+            color: #fffb96;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .menu a.active {
+            background-color: #F96CFF;
+            color: #05ffa1;
+        }
+
+        /* Flex time */
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .menu-start {
+            justify-content: start;
+            /* Default */
+        }
+
+        .menu-end {
+            justify-content: end;
+        }
+
+        .menu-center {
+            justify-content: center;
+        }
+
+        .menu-between {
+            justify-content: space-between;
+        }
+
+        .menu-around {
+            justify-content: space-around;
+        }
+
+        .menu-evenly {
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h3>justify-content: start</h3>
+        <p>All items are placed at the beginning of the container with no spaces</p>
+        <div class="menu menu-start">
+            <!-- <h1>hello</h1>
+            <h1>we are blocks</h1> -->
+            <a href="#" class="active">Profile</a>
+            <a href="#">Notifications</a>
+            <a href="#">Payments</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h3>justify-content: end</h3>
+        <p>All items are placed at the end of the container with no spaces</p>
+        <div class="menu menu-end">
+            <a href="#" class="active">Profile</a>
+            <a href="#">Notifications</a>
+            <a href="#">Payments</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h3>justify-content: center</h3>
+        <p>All items are placed at the center with no spaces</p>
+        <div class="menu menu-center">
+            <a href="#" class="active">Profile</a>
+            <a href="#">Notifications</a>
+            <a href="#">Payments</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h3>justify-content: space-between</h3>
+        <p>All items are spaced out as much as possible with first item at the beginning and last item at the end</p>
+        <div class="menu menu-between">
+            <a href="#" class="active">Profile</a>
+            <a href="#">Notifications</a>
+            <a href="#">Payments</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h3>justify-content: space-around</h3>
+        <p>Space before the flex items and after the flex items are half as much as space between the items</p>
+        <div class="menu menu-around">
+            <a href="#" class="active">Profile</a>
+            <a href="#">Notifications</a>
+            <a href="#">Payments</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h3>justify-content: space-evenly</h3>
+        <p>Space before, after and between the items are same</p>
+        <div class="menu menu-evenly">
+            <a href="#" class="active">Profile</a>
+            <a href="#">Notifications</a>
+            <a href="#">Payments</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+</body>
+
+</html>
