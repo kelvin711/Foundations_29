@@ -16,5 +16,21 @@ body {
 }
 
 img {
-    width: 50%;
+    width: 25%;
+}
+
+#merch {
+    background-color: blanchedalmond;
+}
+
+.header {
+    background-color: blue;
+}
+
+h3 {
+    background-color: red;
+}
+
+nav {
+    width: 500px;
 }

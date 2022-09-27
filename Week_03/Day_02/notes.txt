@@ -33,7 +33,7 @@ the default position for elements is static, meaning they follow the normal docu
 
 postion relative is the same as static but allows us to use left, right, top and bottom to move the element. it takes the element out of the document flow
 
-postion absolute is positioned relative to the nearest positioned ancestor. However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+postion absolute is positioned relative to the nearest positioned ancestor. However; if an absolute positioned element has no positioned ancestors, it uses the document body,
 
 An element with position: sticky; is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
 
