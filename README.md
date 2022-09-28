@@ -28,8 +28,8 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 2 Day 4` | Design | https://tinyurl.com/5n9azyuc | 
 | `Week 2 Day 5` | OOP Theory | https://tinyurl.com/yckv3b26 |
 | `Week 3 Day 1` | HTML CSS| https://tinyurl.com/mrxzd4mt |
-| `Week 3 Day 2` | HTML CSS 2| https://tinyurl.com/mr46ct8p |
-
+| `Week 3 Day 2` | HTML CSS 2| https://tinyurl.com/mr46ct8p |https://tinyurl.com/ykpuprky
+| `Week 3 Day 3` | Interactivity| https://tinyurl.com/ykpuprky |
 
 
 

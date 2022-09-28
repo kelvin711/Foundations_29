@@ -1,0 +1,71 @@
+.dice {
+    background-color: green;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    background-color: silver;
+    padding: 20px;
+    position: relative;
+    /* width: 300px; */
+    display: flex;
+    /* display: flex;
+    justify-content: center;
+    align-items: stretch; */
+    /* Default */
+}
+
+.service {
+    background-color: rgb(182, 223, 237);
+    /* margin: 20px; */
+    padding: 30px;
+    /* max-width: 250px; */
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 10px 10px 49px -17px rgba(23, 23, 23, 0.2);
+    text-align: center;
+}
+
+.service .icon {
+    background-color: #0D9488;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1.2rem;
+    border-radius: 100%;
+}
+
+.service h2 {
+    margin-top: 1.6rem;
+}
+
+.service p {
+    margin-top: 0.8rem;
+    line-height: 1.4;
+    color: #555;
+}
+
+/*total width and height will be 130 each*/
+#content-box {
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+/*total width and height remain 100*/
+#border-box {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+.morbed {
+    height: 500px;
+}
