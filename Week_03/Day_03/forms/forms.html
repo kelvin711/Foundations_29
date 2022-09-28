@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <p>
+        Forms allow our users to interact with our website in a more meaningful way. They can tell us about themselves,
+        give us useful feedback,
+        or even create their own stories and upload meaningful images and videos using forms. As such, it's important
+        that we are familiar with
+        a wide variety of different input types. But don't get too focused on learning all of them now; it's enough that
+        right now we are aware
+        these exist.
+    </p>
+    <h2>Common Inputs</h2>
+    <p>Here are some common elements used inside of forms! You can see and test the inputs</p>
+
+    <div class="flex-container">
+        <div>
+            <p><strong>Text Inputs</strong></p>
+            <pre>&lt;input type="text" name="first_name"&gt;</pre>
+        </div>    
+        <p>
+            <label for="name">Name</label>
+            <input type="text" name="first_name" style="color:#000;">
+        </p>
+
+    </div>
+
+    <div class="flex-container">
+        <div>
+            <p><strong>Textarea</strong></p>
+            <pre style="width:60%;">&lt;textarea&gt; rows="4" cols="30" &lt;textarea&gt;</pre>
+        </div>    
+        <p>
+            <textarea id="w3review" name="w3review" rows="4" cols="30">At KelvinCorp you will work for free</textarea>
+        </p>
+    </div>
+    
+    <div class="flex-container">
+        <div>
+            <p><strong>Number Inputs</strong></p>
+            <pre style="width:60%;">&lt;input type="number" name="age"&gt;</pre>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" style="color:#000;">
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div>
+            <p><strong>Select</strong></p>
+            <pre style="width:60%;">
+&lt;select name="snack"&gt;
+    &lt;option&gt;Almonds&lt;/option&gt;
+    &lt;option&gt;Cheese and Crackers&lt;/option&gt;
+    &lt;option&gt;Pita and Hummus&lt;/option&gt;
+    &lt;option&gt;Pears&lt;/option&gt;
+&lt;/select&gt;
+            </pre>
+        </div>
+        <div>
+            <select style="color:#000;" name="snack">
+                <option style="color:#000;">Almonds</option>
+                <option style="color:#000;">Cheese and Crackers</option>
+                <option style="color:#000;">Pita and Hummus</option>
+                <option style="color:#000;">Pears</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div>
+            <p><strong>Radio</strong></p>
+            <p><em>Including the "id" and "for" attributes allow for clicking the label text to change the inputs.</em></p>
+            <pre  style="width:60%;">
+&lt;input type="radio" name="font" value="bold" id="bold"&gt;
+&lt;label for="bold"&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/label&gt;
+&lt;input type="radio" name="font" value="normal" id="normal"&gt;
+&lt;label for="normal"&gt;Normal&lt;/label&gt;
+            </pre>
+        </div>
+        <div>
+            <input type="radio" name="font" value="bold" id="bold"> 
+            <label for="bold"><strong>Bold</strong></label> 
+            <input type="radio" name="font" value="normal" id="normal"> 
+            <label for="normal">Normal</label>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div>
+            <p><strong>Checkbox</strong></p>
+            <pre d style="width:60%;">
+&lt;input type="checkbox" name="accept" id="accept"&gt;
+&lt;label for="accept"&gt;I agree&lt;/label&gt;
+            </pre>
+        </div>
+        <div>
+            <input type="checkbox" name="accept" id="accept"> 
+            <label for="accept">I agree</label>
+        </div>
+    </div>
+    
+</body>
+
+</html>
