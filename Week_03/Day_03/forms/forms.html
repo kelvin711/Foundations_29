@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Forms</title>
 </head>
 
 <body>
-    <h1>Forms</h1>
+    <h1 class="stuff other-stuff wow">Forms</h1>
     <p>
         Forms allow our users to interact with our website in a more meaningful way. They can tell us about themselves,
         give us useful feedback,
@@ -24,13 +25,13 @@
     <p>Here are some common elements used inside of forms! You can see and test the inputs</p>
 
     <div class="flex-container">
-        <div>
+        <div class="article">
             <p><strong>Text Inputs</strong></p>
             <pre>&lt;input type="text" name="first_name"&gt;</pre>
         </div>    
         <p>
             <label for="name">Name</label>
-            <input type="text" name="first_name" style="color:#000;">
+            <input class="input" type="text" name="first_name" style="color:#000;">
         </p>
 
     </div>
@@ -70,10 +71,10 @@
         </div>
         <div>
             <select style="color:#000;" name="snack">
-                <option style="color:#000;">Almonds</option>
-                <option style="color:#000;">Cheese and Crackers</option>
-                <option style="color:#000;">Pita and Hummus</option>
-                <option style="color:#000;">Pears</option>
+                <option class="option" style="color:#000;">Almonds</option>
+                <option class="option" style="color:#000;">Cheese and Crackers</option>
+                <option class="option" style="color:#000;">Pita and Hummus</option>
+                <option class="option" style="color:#000;">Pears</option>
             </select>
         </div>
     </div>
@@ -110,7 +111,12 @@
             <label for="accept">I agree</label>
         </div>
     </div>
+    <form class="form">
+        <input type="text" name="" id="">
+        <button type="submit">submit</button>
+    </form>
     
+    <script src="scripts.js"></script>
 </body>
 
 </html>
