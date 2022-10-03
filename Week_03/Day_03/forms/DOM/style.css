@@ -1,5 +1,5 @@
 .dice {
-    background-color: green;
+    background-color: rebeccapurple;
     width: 300px;
     text-align: center;
     padding: 10px;
@@ -8,12 +8,13 @@
 .container {
     background-color: silver;
     padding: 20px;
-    position: relative;
+    /* position: relative; */
     /* width: 300px; */
     display: flex;
-    /* display: flex;
-    justify-content: center;
-    align-items: stretch; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 200vh; */
+    /* flex-wrap: wrap; */
     /* Default */
 }
 

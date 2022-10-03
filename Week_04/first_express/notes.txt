@@ -1,0 +1,13 @@
+1. npm init -y
+2. install depandancies npm i express .....
+3. create .gitignore and ignore node_modules
+4. make your server file
+5. 
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(3000)
