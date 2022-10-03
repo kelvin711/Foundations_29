@@ -30,7 +30,8 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 3 Day 1` | HTML CSS| https://tinyurl.com/mrxzd4mt |
 | `Week 3 Day 2` | HTML CSS 2| https://tinyurl.com/mr46ct8p |https://tinyurl.com/ykpuprky
 | `Week 3 Day 3` | Interactivity| https://tinyurl.com/ykpuprky |
-| `Week 3 Day 4` | Interactivity 2| https://tinyurl.com/ym2h7jsm & https://tinyurl.com/3tnrxr3c |
+| `Week 3 Day 4` | Interactivity 2| https://tinyurl.com/ym2h7jsm & https://tinyurl.com/3tnrxr3c | https://tinyurl.com/yc6epz8e
+| `Week 4 Day 1` | Express | https://tinyurl.com/yc6epz8e |
 
 
 
