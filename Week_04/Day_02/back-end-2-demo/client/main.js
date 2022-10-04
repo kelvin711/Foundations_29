@@ -1,7 +1,7 @@
 const moviesContainer = document.querySelector('#movies-container')
 const form = document.querySelector('form')
 
-const baseURL = `http://localhost:4004/api/movies`
+const baseURL = `http://localhost:4005/api/movies`
 
 const moviesCallback = ({ data: movies }) => displayMovies(movies)
 const errCallback = err => console.log(err.response.data)
@@ -17,7 +17,11 @@ const createMovie = (body) => {
     .catch(errCallback)
 }
 const deleteMovie = id => axios.delete(`${baseURL}/${id}`).then(moviesCallback).catch(errCallback)
-const updateMovie = (id, type) => axios.put(`${baseURL}/${id}`, {type}).then(moviesCallback).catch(errCallback)
+const updateMovie = (id, type) => {
+    axios.put(`${baseURL}/${id}`, {type})
+    .then(moviesCallback)
+    .catch(errCallback)
+}
 
 function submitHandler(e) {
     e.preventDefault()
