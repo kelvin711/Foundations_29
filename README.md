@@ -33,7 +33,8 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 3 Day 4` | Interactivity 2| https://tinyurl.com/ym2h7jsm & https://tinyurl.com/3tnrxr3c | https://tinyurl.com/yc6epz8e
 | `Week 4 Day 1` | Express | https://tinyurl.com/yc6epz8e |
 | `Week 4 Day 2` | Express 2 | https://tinyurl.com/2a48xjt4 | 
-| `Week 4 Day 3` | Express 2 | http://tiny.cc/hguzuz |
+| `Week 4 Day 2` | Express 2 review | http://tiny.cc/hguzuz |
+| `Week 4 Day 3` | API | https://tinyurl.com/fdcajbwm |
 
 
 
