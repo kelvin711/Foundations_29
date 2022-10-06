@@ -1,0 +1,41 @@
+body {
+    display: flex;
+}
+
+.berry {
+    flex: 1;
+}
+.berry-form {
+    display: flex;
+    flex-direction: column;
+}
+.berry-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin: 10px;
+    list-style:circle;
+}
+
+.poke-container {
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokemon {
+    flex: 1;
+}
+.poke-form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
