@@ -11,7 +11,7 @@ const {
     deleteMovie, 
     createMovie, 
     updateMovie
-} = require('./controller')
+} = require('./controller');
 
 app.get(`/api/movies`, getMovies)
 app.delete(`/api/movies/:id`, deleteMovie)
