@@ -36,7 +36,8 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 4 Day 2` | Express 2 Modularized code | http://tiny.cc/hguzuz |
 | `Week 4 Day 3` | API | https://tinyurl.com/fdcajbwm |
 | `Week 4 Day 4` | Security | https://tinyurl.com/5n7s8kcx |
-
+| `Week 5 Day 1` | SQL Intro | https://tinyurl.com/4b8xemkf |
+| `Week 5 Day 2` | DB Design | https://tinyurl.com/43rznxwx |
 
 
 
