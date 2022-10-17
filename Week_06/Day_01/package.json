@@ -1,0 +1,15 @@
+{
+  "name": "day_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tower_builder.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.2.0"
+  }
+}
