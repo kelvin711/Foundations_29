@@ -41,6 +41,7 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 5 Day 2` | DB Design | https://tinyurl.com/43rznxwx |
 | `Week 5 Day 3` | Sequelize | https://tinyurl.com/u4y8brc4 |
 | `Week 5 Day 4` | Review | https://tinyurl.com/2mtzvdrv |
+| `Week 6 Day 1` | QA Intro | https://tinyurl.com/jzmp547c |
 | `Week 6 Day 2` | Selenium | https://tinyurl.com/cu95vafh |
 | `Week 6 Day 3` | Deployment | https://tinyurl.com/2dhrnvn2 |
 | `Week 6 Day 4` | Rollbar | hhttps://tinyurl.com/y3t4bctk |
