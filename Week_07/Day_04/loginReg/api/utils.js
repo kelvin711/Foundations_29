@@ -7,7 +7,10 @@ function requireUser(req, res, next) {
         });
     }
     next();
-}
+} 
+// function validateInfo(req, res, next) {
+//     //make regex checks
+// }
 
 module.exports= {
     requireUser

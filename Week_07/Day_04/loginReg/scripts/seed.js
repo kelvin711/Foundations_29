@@ -1,5 +1,5 @@
 const { connection } = require("../db/config");
-const { createUser, getUserByUsername } = require("../db/users")
+const { createUser, getUserByUsername, getUserById, getUserCredentials } = require("../db/users")
 
 async function seed() {
     await connection.query(`
@@ -14,7 +14,9 @@ async function seed() {
 
     const user = await createUser({user_name: "kelvin", password: "password123"})
     const getTest = await getUserByUsername("kelvin")
-    console.log(getTest);
+    const idTest = await getUserById(1);
+    const credTest = await getUserCredentials({user_name: "kelvin", password: "password123"})
+    
 }
 
 seed()

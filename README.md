@@ -46,5 +46,8 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 6 Day 3` | Deployment | https://tinyurl.com/2dhrnvn2 |
 | `Week 6 Day 4` | Rollbar | hhttps://tinyurl.com/y3t4bctk |
 | `Extra Content` | MongoDB | https://tinyurl.com/yc7dcyta |
+| `Week 7 Day 4` | CS | https://tinyurl.com/25as2suk |
+| `Extra Content` | Login Reg | https://tinyurl.com/5n9xk69t |
+| `Extra Content` | Login Reg | https://tinyurl.com/3xh7h5pr |
 
 
